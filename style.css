@@ -1,0 +1,60 @@
+.grid {
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+  background-color: orange;
+
+}
+.grid div {
+  height: 98px;
+  width: 98px;
+  border: 1px solid;
+
+
+}
+.x{
+  background-image: url('cross.png');
+
+
+
+}
+.o{
+  background-image: url('Circle.png')
+
+
+}
+
+#mode-toggle{
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 100px;
+
+}
+#mode-toggle div {
+  height: 100px;
+  width: 100px;
+  background-color:grey;
+}
+#mode-toggle div:hover{
+  background-color: teal;
+}
+#order-quote{
+
+  visibility: collapse;
+}
+#chaos-quote{
+
+  visibility: collapse
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body{
+  text-align: center;
+}
